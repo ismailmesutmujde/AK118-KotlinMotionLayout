@@ -9,6 +9,8 @@
         motion:duration="1000">
        <KeyFrameSet>
        </KeyFrameSet>
+        <OnSwipe />
+        <OnClick motion:targetId="@+id/buttonBottom" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
