@@ -8,6 +8,38 @@
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonTop"
+               motion:framePosition="50"
+               android:alpha="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonBottom"
+               motion:framePosition="50"
+               android:alpha="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonTop"
+               motion:framePosition="25"
+               android:rotation="45" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonBottom"
+               motion:framePosition="75"
+               android:rotation="45" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonTop"
+               motion:framePosition="50"
+               android:scaleX="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonBottom"
+               motion:framePosition="50"
+               android:scaleX="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonTop"
+               motion:framePosition="50"
+               android:translationX="-100dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/buttonBottom"
+               motion:framePosition="50"
+               android:translationX="100dp" />
        </KeyFrameSet>
         <OnSwipe />
         <OnClick motion:targetId="@+id/buttonBottom" />
